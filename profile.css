@@ -1,0 +1,273 @@
+
+*{
+	padding: 0px;
+	margin:0px;
+	text-decoration: none;
+	list-style: none;
+	font-family: Arial;
+}
+
+body{
+	 background: linear-gradient(to bottom, #68376e 0%, #e9adf5 100%);
+	background-position: cover;
+}
+
+.header{
+	margin-top: 20px;
+	text-align: left;
+	color: #f0f0f5;
+}
+.logo{
+	width: 70px;
+	height: 60px;
+	margin-left: 20px;
+	margin-top:2px;
+	
+}
+.header p{
+	margin-left: 19px;
+	margin-top: -41px;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #ba5fc4;
+	font-style: italic;
+}
+.navigation_bar{
+    background: #68376e;
+    text-align:right;
+	margin-top: 20px;;
+}
+.navigation_bar ul{
+    display: inline-flex;
+    list-style: none;
+    color: #fff;
+
+}
+.navigation_bar ul li{
+    width: 100px;
+    margin: 15px;
+    padding: 15px;
+	text-align: center;
+
+}
+.navigation_bar ul li a{
+    text-decoration: none;
+    color: white;
+}
+.active, .navigation_bar ul li a:hover{
+    background: rgb(150, 83, 151);
+    border-radius: 3px;
+}
+
+.activ, .navigation_bar ul li b{
+	font-size: 20px;
+}
+
+hr{
+	width: 100%;
+}
+footer{
+	text-align: center;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-size: 15px;
+	line-height: 25px;
+	background-color: #68376e;
+	color: white;
+	margin-top: 50px;
+}
+
+.photo_wrapper{
+	height: 70vh;
+	background-image: url(background.jpg);
+	background-position: center;
+	margin-top: 25px;
+	margin-bottom: 400px;
+}
+ .em{
+ 	width: 350px;
+ 	height: 350px;
+ 	border-radius: 70%;
+ 	margin-left: 480px;
+ 	margin-top:220px;
+ }
+
+
+.photo_wrapper h1{
+	font-size: 60px;
+	text-align: center;
+	font-family: Arial;
+	font-weight: bold;
+}
+
+.photo_wrapper h4{
+	text-align: center;
+	font-family: Arial;
+	font-style: italic;
+}
+.aboutme{
+	font-size: 25px;
+	margin-left: 40px;
+	margin-top: -10px;
+}
+.aboutme h2{
+	margin-top: 50px;
+}
+.aboutme ul li{
+	margin-top: 15px;
+	margin-left: 40px;
+	font-family: 'Times New Roman', Times, serif;
+}
+
+
+.content{
+	margin-top: 10px;
+    text-align: justify;
+	border-radius: 1%;
+	background-color: #68376e
+}
+.content h1{
+	margin-left: -100px;
+	background-position: cover;
+	color: #fff;
+}
+.content img{
+	width: 450px;
+	height: 400px;
+	margin-left: 150px;
+}
+.content p{
+	margin-left: 80px;
+	margin-top: 20px;
+	margin-bottom: 30px ;
+	font-size: 20px;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #f0f0f5;
+}
+.content h2{
+	font-size: 30px;
+	font-family: 'Times New Roman', Times, serif;
+	margin-top: 30px;
+	margin-left: 100px;
+	margin-bottom: 30px;
+	color: #fff;
+}
+
+.favorite_places h1{
+	margin-top: 50px;
+	text-align: center;
+	font-size: 60px;
+	font-family: 'Times New Roman', Times, serif;
+}
+.column {
+	margin-top: 30px;
+	margin-left: 50px;
+	float: left;
+	width: 20%;
+	height: 200%;
+	padding: 3px;
+	color: #f5eaf7;
+	background-color: #68376e;
+	border-radius: 10%;
+	font-size: medium;
+	font-style: arial
+}
+.column img{
+	width: 50%;
+	height: 55%; ;
+}
+
+.column h2{
+	margin-top: 40px;
+	margin-bottom: 20px;
+	text-align: center;
+	font-family: 'Times New Roman', Times, serif;
+}
+
+
+  .row::after {
+	text-align: center;
+	content: "";
+	clear: both;
+	display: table;
+}
+.row{
+	margin-top: 180px;
+}
+.row h1{
+	font-size: 40px;
+	font-family: 'Times New Roman', Times, serif;
+	color: #fff;
+	margin-top: 100px;
+	margin-left: 60px;
+	text-align: left;
+
+}
+
+
+
+.side_bar{
+	float: right;
+	margin-top: -1400px;
+	margin-right: 40px;
+	font-weight: bold;
+	font-family: Arial;
+	font-size: 25px;
+	padding-left: 20px;
+	width: 350px;
+	height: 1150px;
+	background-color: rgba(255,255,255,0);
+	bottom: 0px;
+}
+
+.side_bar ul li{
+	text-align: center;
+	line-height: 30px;
+	display: block;
+	color: white;
+	border: 1px solid white;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	margin-left: 20px;
+	margin-top: 30px;
+
+}
+
+.side_bar h2{
+	border-bottom: 3px solid white;
+	margin-top: 20px;
+	font-size: 25px;
+
+}
+
+@media only screen and (max-width: 1024px){
+
+	 .me{
+ 	width: 250px;
+ 	height: 250px;
+ 	border-radius: 50%;
+ 	margin-left: 370px;
+ 	margin-top:225px;
+ }
+
+ img{
+ 	width: 350px;
+ 	height: 350px;
+ }
+
+ p{
+ 	max-width: 350px;
+ }
+
+.side_bar{
+	float: right;
+	margin-top: -5250px;
+	bottom: 0px;
+}
+
+footer{
+	margin-top: 50px;
+}
+
+footer p{
+	padding-left: 500px;
+}
